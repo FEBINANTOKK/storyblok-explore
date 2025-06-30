@@ -10,16 +10,16 @@
 <script>
   export let blok;
 
-  console.log("❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌");
+  // console.log("❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌");
   
-  console.log(blok);
-  console.log("❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌");
+  // console.log(blok);
+  // console.log("❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌❌");
 </script>
 
 <section>
   <h1 class="text-3xl font-bold">{blok.name}</h1>
   <p class="text-gray-600">{blok.content.introduction}</p>
-  <p>{blok.content.body.content[0].content[1].text}</p>
+  <!-- <p>{blok.content.body.content[0].content[1].text}</p> -->
 
   <!-- Optional: loop nested blocks if needed -->
   <!-- {#if blok.body}

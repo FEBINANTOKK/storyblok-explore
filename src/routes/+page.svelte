@@ -1,7 +1,18 @@
-<h1 class="text-3xl font-bold underline text-green-300">
-  Hello world!
-</h1>
-<h4>ggggggggggg</h4>
+<script>
+  import Home from '$lib/components/Home.svelte';
+
+  export let data;
+  console.log("jjkjk");
+  
+  console.log(data.story);
+  
+</script>
+<h6>ggggg</h6>
+{#if data.story}
+  <Home blok={data.story} />
+{:else}
+  <p class="text-red-500">Story not found</p>
+{/if}
 <style lang="postcss">
   @reference "tailwindcss";
   :global(html) {

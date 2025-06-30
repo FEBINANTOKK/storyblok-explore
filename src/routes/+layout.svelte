@@ -1,8 +1,9 @@
 <script>
-  import '$lib/storyblok.js'; // Global Storyblok init
+import '$lib/storyblok.js'; // This runs storyblokInit()
   import '../app.css';
 
  
 </script>
 
 <slot />
+
